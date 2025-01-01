@@ -1,0 +1,61 @@
+! This is a comment
+! Afer making changes to this file run
+! xrdb .Xdefaults
+
+! Color Section
+URxvt.background: #080808
+URxvt.foreground: #a5a5a5
+
+! black
+URxvt.color0  : #0F0F12
+URxvt.color8  : #28282E
+! red
+URxvt.color1  : #b02626
+URxvt.color9  : #b55454
+! green
+URxvt.color2  : #40a62f
+URxvt.color10 : #78a670
+! yellow
+URxvt.color3  : #f2e635
+URxvt.color11 : #faf380
+! blue
+URxvt.color4  : #314ad0
+URxvt.color12 : #707fd0
+! magenta
+URxvt.color5  : #b30ad0
+URxvt.color13 : #c583d0
+! cyan
+URxvt.color6  : #32d0fc
+URxvt.color14 : #8adaf1
+! white
+URxvt.color7  : #cbcfc7
+URxvt.color15 : #f5faf0
+
+! Icon
+URxvt.iconFile: /usr/share/icons/Papirus-Dark/64x64/apps/Terminal.svg
+
+
+! Fonts
+URxvt.font:           xft:Hack:size=10
+! URxvt.boldFont:       xft:Hack Bold:size=10
+! URxvt.italicFont:     xft:Hack Italic:size=10
+! URxvt.boldItalicFont: xft:Hack Bold Italic:size=10
+! Fix font space
+URxvt.letterSpace: -1
+
+! setting for  - X FreeType library
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.antialias: rgba
+Xft.rgba: rgb
+
+! Scrollbar
+! Scroll line-by-line, like in older rxvt terminal emulator.
+URxvt.scrollstyle: rxvt
+URxvt.scrollBar: false
+! Activate the "urgent" flag for the window manager then termnal bell is triggered
+URxvt.urgentOnBell: false
+
+! disable ctrl+shift binding
+URxvt.iso14755: false
+URxvt.iso14755_52: false
