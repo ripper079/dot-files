@@ -2,38 +2,39 @@
 ! Afer making changes to this file run
 ! xrdb .Xdefaults
 
+! GLOBAL settings
 ! Color Section
-URxvt.background: #080808
-URxvt.foreground: #a5a5a5
+*.background: #080808
+*.foreground: #a5a5a5
 
 ! black
-URxvt.color0  : #0F0F12
-URxvt.color8  : #28282E
+*.color0  : #0F0F12
+*.color8  : #28282E
 ! red
-URxvt.color1  : #b02626
-URxvt.color9  : #b55454
+*.color1  : #b02626
+*.color9  : #b55454
 ! green
-URxvt.color2  : #40a62f
-URxvt.color10 : #78a670
+*.color2  : #40a62f
+*.color10 : #78a670
 ! yellow
-URxvt.color3  : #f2e635
-URxvt.color11 : #faf380
+*.color3  : #f2e635
+*.color11 : #faf380
 ! blue
-URxvt.color4  : #314ad0
-URxvt.color12 : #707fd0
+*.color4  : #314ad0
+*.color12 : #707fd0
 ! magenta
-URxvt.color5  : #b30ad0
-URxvt.color13 : #c583d0
+*.color5  : #b30ad0
+*.color13 : #c583d0
 ! cyan
-URxvt.color6  : #32d0fc
-URxvt.color14 : #8adaf1
+*.color6  : #32d0fc
+*.color14 : #8adaf1
 ! white
-URxvt.color7  : #cbcfc7
-URxvt.color15 : #f5faf0
+*.color7  : #cbcfc7
+*.color15 : #f5faf0
 
+! URxvt settings
 ! Icon
 URxvt.iconFile: /usr/share/icons/Papirus-Dark/64x64/apps/Terminal.svg
-
 
 ! Fonts
 URxvt.font:           xft:Hack:size=10
@@ -48,6 +49,11 @@ Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.antialias: rgba
 Xft.rgba: rgb
+
+! Cursor
+URxvt.cursorColor: #ff00ff
+URxvt.cursorBlink: false
+URxvt.cursorUnderline: false
 
 ! Scrollbar
 ! Scroll line-by-line, like in older rxvt terminal emulator.
