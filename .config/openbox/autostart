@@ -24,4 +24,19 @@ tint2 &
 nitrogen --restore
 
 # |||	Compositor	|||  try for only panel
-picom
+picom &
+
+# |||	Screenshot app (Change to keybind better)	|||
+(sleep 2s && flameshot) &
+
+# |||	Clipboard Manager	|||
+(sleep 2s && copyq) &
+
+# |||	KeePassXC			|||
+(sleep 2s && keepassxc) &
+
+# |||	QuiteRss
+# (sleep 2s && quiterss) &
+
+# |||	Fix webcam  issue||| 
+(sleep 10s && /usr/bin/bash $HOME/scripts/startup/fixwebcam.sh) &
